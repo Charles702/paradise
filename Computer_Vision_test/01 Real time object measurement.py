@@ -102,6 +102,7 @@ while True:
 
     cv2.imshow('Original', img)
     cv2.waitKey(1)
+    print("we are here");
 
 
 

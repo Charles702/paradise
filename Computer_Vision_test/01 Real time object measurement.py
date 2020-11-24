@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 
+print("we are not here");
 #==========utils function========
 def getContours(img, cThr= [100,100], showCanny = True, minArea = 1000, filter = 0, draw = False):
     imgGray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
@@ -102,7 +103,6 @@ while True:
 
     cv2.imshow('Original', img)
     cv2.waitKey(1)
-    print("we are not here");
 
 
 
